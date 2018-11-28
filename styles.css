@@ -1,28 +1,31 @@
-header {
+.header {
   text-align: center;
-  background-size: cover;
+  margin: 0 auto;
 }
-a {
-  color: white;
-}
+
+body, html {
+    height: 100%;
+  }
+.landing-page {
+    background-image: url("https://scontent-lhr3-1.xx.fbcdn.net/v/t31.0-8/21013894_603414060047338_7200491586442215670_o.jpg?_nc_cat=105&_nc_ht=scontent-lhr3-1.xx&oh=96654a5a60dd17b7be7c693207ce63a1&oe=5C72B63F");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 h1 {
-  font-size: 70px;
-}
-img {
-  margin: 40px 0px 0px 0px;
-  border: 7px solid white;
-  border-radius: 20px;
+  font-size: 100px;
 }
 ul {
-  padding: 10px;
-  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.3);
+  color: white;
 }
 li {
   display: inline;
   padding: 0px 10px 0px 10px;
 }
 article {
-  max-width: 500px;
   padding: 20px;
   margin: 0 auto;
 }
